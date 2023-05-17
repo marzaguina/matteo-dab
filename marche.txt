@@ -1,0 +1,19 @@
+Il était une fois un groupe d'étudiants plein d'enthousiasme qui se préparait pour un week-end à Avignon.
+Les cinq membres du groupe étaient : Thomas, le leader charismatique; Emma, l'esprit aventurier ; Lucas, le blagueur de service ; Laura, la passionnée de photographie ; et Maxime, le sportif intrépide, et vous avec votre propre personnalité. 
+Leur voyage vers Avignon commença tôt le matin. Ils s'entassèrent dans une voiture, chargés de sacs à dos remplis de provisions pour leur séjour au camping. 
+Le trajet était animé par des chansons, des rires et des discussions sur les activités qu'ils prévoyaient de faire pendant le week-end.
+Arrivés au camping, ils installèrent rapidement leurs tentes, impatients de commencer leur aventure.
+Ils firent un feu de camp et partagèrent un délicieux repas composé de grillades, de salades et de marshmallows grillés.
+La soirée était remplie de joie et d'excitation alors qu'ils partageaient des histoires, des jeux et des rires autour du feu.
+Après un certain temps, l'ambiance au camping commença à se calmer et le groupe d'étudiants décida de sortir et d'explorer les environs.
+Alors qu'ils marchaient à la lueur de la lune, ils tombèrent sur une maison abandonnée à l'aspect mystérieux. 
+Les volets étaient fermés depuis des années et des herbes folles envahissaient la cour. 
+Le groupe s'arrêta devant la maison, mêlé d'excitation et d'inquiétude. 
+Thomas qui était pour la visite de cette maison, proposa de voter pour décider s'ils devaient s'aventurer à l'intérieur.
+Emma, toujours avide d'aventure, vota pour entrer, persuadée qu'il y avait des secrets à découvrir.Lucas, toujours partant pour une bonne blague, se joignit à Emma.
+Laura hésita, mais finit par voter pour rester en dehors, préférant ne pas prendre de risques inutiles.
+Maxime, soucieux de la sécurité du groupe, vota également pour rester à l'extérieur. 
+
+ Quel est donc votre choix ? 
+Taper 1 pour oui. 
+Taper 2 pour non.
