@@ -43,7 +43,7 @@ while(a!=1 && a!=2){
     while ((c1 = fgetc(f1)) != EOF) {
         printf(ANSI_COLOR_BLUE "%c" ANSI_COLOR_RESET, c1);
         fflush(stdout);  // Permet d'afficher lettre par lettre avec un délai de 0,05susleep(50000);
-    usleep(50000);*/
+    usleep(50000);
        
     }
 
