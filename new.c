@@ -6,7 +6,15 @@
 #define ANSI_COLOR_BLUE "\033[0;34m"
 #define ANSI_COLOR_RESET "\033[0m"
 
+void vide_buffer(){
+
+while(getchar()!='\n'){
+}
+}
+
 int main() {
+int verif;
+
     FILE* f = NULL;                  // programme l'intro 
     f = fopen("intro.txt", "r+");
     if (f == NULL) {
@@ -22,12 +30,12 @@ int main() {
     }
 
     int a;                   
-    scanf("%d", &a);
 
-while(a!=1 && a!=2){
-    printf("tapez 1 ou 2\n");                                           //s'assurer des bonnes saisies
-    scanf("%d", &a);
-}
+do{
+printf("Tapez 1 ou 2\n");
+verif=scanf("%d", &a);
+vide_buffer();
+}while(a!=1 && a!=2);
 
    
 
@@ -42,20 +50,20 @@ while(a!=1 && a!=2){
     char c1;
     while ((c1 = fgetc(f1)) != EOF) {
         printf(ANSI_COLOR_BLUE "%c" ANSI_COLOR_RESET, c1);
-        fflush(stdout);  // Permet d'afficher lettre par lettre avec un délai de 0,05susleep(50000);
-    usleep(50000);
+/*        fflush(stdout);  // Permet d'afficher lettre par lettre avec un délai de 0,05susleep(50000);
+    usleep(50000);*/
        
     }
 
 
 
-int a1;                                    //programme pour i_c1_c1||c2
-scanf("%d", &a1);
+    int a1;                   
 
-while(a1!=1 && a1!=2){
-    printf("tapez 1 ou 2\n");
-    scanf("%d", &a1);
-}
+do{
+printf("Tapez 1 ou 2\n");
+verif=scanf("%d", &a1);
+vide_buffer();
+}while(a1!=1 && a1!=2);
 
 FILE* f2 = NULL;
     if(a==1){
@@ -76,19 +84,19 @@ else if(a==2){
     char c2;
     while ((c2 = fgetc(f2)) != EOF) {
         printf(ANSI_COLOR_BLUE "%c" ANSI_COLOR_RESET, c2);
-        fflush(stdout);  // Vider le tampon de sortie pour afficher le caractère immédiatement
-        usleep(50000);  // Pause de 50 000 microsecondes (0,05 seconde)
+       /* fflush(stdout);  // Vider le tampon de sortie pour afficher le caractère immédiatement
+        usleep(50000);  // Pause de 50 000 microsecondes (0,05 seconde)*/
     }
 
 
-int a2;                                    //programme pour i_c1_c1||c2
-scanf("%d", &a2);
+    int a2;                   
 
-while(a2!=1 && a2!=2){
-    printf("tapez 1 ou 2\n");                    
-    scanf("%d", &a2);
-}
-
+do{
+printf("Tapez 1 ou 2\n");
+verif=scanf("%d", &a2);
+vide_buffer();
+}while(a2!=1 && a2!=2);
+ 	
 FILE* f3 = NULL;
 if(a==1){
    
@@ -140,8 +148,8 @@ else if(a==2){
     char c3;
     while ((c3 = fgetc(f3)) != EOF) {
         printf(ANSI_COLOR_BLUE "%c" ANSI_COLOR_RESET, c3);
-        fflush(stdout);  // Vider le tampon de sortie pour afficher le caractère immédiatement
-        usleep(50000);  // Pause de 50 000 microsecondes (0,05 seconde)    }
+       /* fflush(stdout);  // Vider le tampon de sortie pour afficher le caractère immédiatement
+        usleep(50000);  // Pause de 50 000 microsecondes (0,05 seconde) */   }
 
 return 0;
 }
